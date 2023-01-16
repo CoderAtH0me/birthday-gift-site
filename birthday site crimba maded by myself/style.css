@@ -1,0 +1,76 @@
+body {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  font-size: 25px;
+  background-image: url("images/car-photo.jpg");
+  background-size: cover;
+  color: #324c35;
+}
+h1,
+p,
+h2 {
+  text-shadow: 1px 1px 4px rgb(255, 255, 255);
+}
+.header {
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+  align-items: center;
+}
+#avatar {
+  border-radius: 50%;
+  width: 300px;
+  border: 8px solid #0d3820;
+}
+#title-two {
+  color: #ddcccc;
+  text-shadow: 0px 0px 3px black;
+}
+#gift-five {
+  max-width: 600px;
+}
+.title {
+  padding: 5px 20px;
+}
+.gift-section {
+  margin-top: 75px auto;
+}
+#title-data {
+  background-color: #0d3820;
+  color: #ddcccc;
+  margin-bottom: 10px;
+  text-shadow: none;
+}
+#title-age {
+  background-color: #0d3820;
+  color: #ddcccc;
+  margin-top: 10px;
+  text-shadow: none;
+}
+.cover-img {
+  max-width: 500px;
+  height: 300px;
+  background-image: url("images/gift-cover.jpg");
+  margin: 0px auto;
+  background-size: cover;
+  border: 8px solid #0d3820;
+  border-radius: 10px;
+}
+#gift-one:hover {
+  background-image: url("https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif");
+}
+#gift-two:hover {
+  background-image: url("https://media.giphy.com/media/Y2GFtz19vL1Zu/giphy.gif");
+}
+#gift-three:hover {
+  background-image: url("https://media.giphy.com/media/6eyXkeCYdyv1Ot98z6/giphy.gif");
+}
+#gift-four:hover {
+  background-image: url("https://media.giphy.com/media/SEp2xZsO3uJPQV3gPn/giphy.gif");
+}
+#gift-five:hover {
+  background-image: url("https://media.giphy.com/media/8Iv5lqKwKsZ2g/giphy.gif");
+}
+#last-word {
+  margin: 50px 0;
+}
